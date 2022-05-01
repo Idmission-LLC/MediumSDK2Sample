@@ -61,9 +61,6 @@ class ViewController: UIViewController {
         IDentitySDK.templateModelBaseURL = templateModelURL
         IDentitySDK.apiBaseURL = baseAPIURLURL
 
-        IDCapture.frontRealnessThreshold = 0
-        IDCapture.backRealnessThreshold = 0
-
         IDentitySDK.initializeSDK(loginId: theLoginID, password: thePassword, merchantId: theMerchantID) { error in
             self.activityIndicator.stopAnimating()
             if let error = error {
