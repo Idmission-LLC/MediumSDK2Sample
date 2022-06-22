@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C5F3F1D281EA189002DAA88 /* IDCaptureMedium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5F3F19281EA17F002DAA88 /* IDCaptureMedium.framework */; };
-		0C5F3F1E281EA189002DAA88 /* IDCaptureMedium.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5F3F19281EA17F002DAA88 /* IDCaptureMedium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0C5F3F1F281EA18B002DAA88 /* IDentityMediumSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5F3F17281EA17F002DAA88 /* IDentityMediumSDK.framework */; };
-		0C5F3F20281EA18B002DAA88 /* IDentityMediumSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5F3F17281EA17F002DAA88 /* IDentityMediumSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0C5F3F21281EA18D002DAA88 /* SelfieCaptureMedium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5F3F18281EA17F002DAA88 /* SelfieCaptureMedium.framework */; };
-		0C5F3F22281EA18D002DAA88 /* SelfieCaptureMedium.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5F3F18281EA17F002DAA88 /* SelfieCaptureMedium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0C5F3F25281EA716002DAA88 /* ResultScreenFor50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F3F23281EA716002DAA88 /* ResultScreenFor50.swift */; };
 		0C5F3F26281EA716002DAA88 /* ResultScreenFor50.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C5F3F24281EA716002DAA88 /* ResultScreenFor50.xib */; };
+		0C78A64C28631FAE0072CA4D /* IDCaptureMedium.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A64828631FA90072CA4D /* IDCaptureMedium.xcframework */; };
+		0C78A64D28631FAE0072CA4D /* IDCaptureMedium.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A64828631FA90072CA4D /* IDCaptureMedium.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C78A64E28631FB00072CA4D /* IDentityMediumSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A64728631FA80072CA4D /* IDentityMediumSDK.xcframework */; };
+		0C78A64F28631FB00072CA4D /* IDentityMediumSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A64728631FA80072CA4D /* IDentityMediumSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C78A65028631FB20072CA4D /* SelfieCaptureMedium.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A64628631FA40072CA4D /* SelfieCaptureMedium.xcframework */; };
+		0C78A65128631FB20072CA4D /* SelfieCaptureMedium.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C78A64628631FA40072CA4D /* SelfieCaptureMedium.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0CA76AC3281C236800B23630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AC2281C236800B23630 /* AppDelegate.swift */; };
 		0CA76AC5281C236800B23630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AC4281C236800B23630 /* SceneDelegate.swift */; };
 		0CA76AC7281C236800B23630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA76AC6281C236800B23630 /* ViewController.swift */; };
@@ -35,9 +35,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0C5F3F20281EA18B002DAA88 /* IDentityMediumSDK.framework in Embed Frameworks */,
-				0C5F3F22281EA18D002DAA88 /* SelfieCaptureMedium.framework in Embed Frameworks */,
-				0C5F3F1E281EA189002DAA88 /* IDCaptureMedium.framework in Embed Frameworks */,
+				0C78A65128631FB20072CA4D /* SelfieCaptureMedium.xcframework in Embed Frameworks */,
+				0C78A64D28631FAE0072CA4D /* IDCaptureMedium.xcframework in Embed Frameworks */,
+				0C78A64F28631FB00072CA4D /* IDentityMediumSDK.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,11 +45,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C5F3F17281EA17F002DAA88 /* IDentityMediumSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDentityMediumSDK.framework; sourceTree = "<group>"; };
-		0C5F3F18281EA17F002DAA88 /* SelfieCaptureMedium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SelfieCaptureMedium.framework; sourceTree = "<group>"; };
-		0C5F3F19281EA17F002DAA88 /* IDCaptureMedium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDCaptureMedium.framework; sourceTree = "<group>"; };
 		0C5F3F23281EA716002DAA88 /* ResultScreenFor50.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultScreenFor50.swift; sourceTree = "<group>"; };
 		0C5F3F24281EA716002DAA88 /* ResultScreenFor50.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultScreenFor50.xib; sourceTree = "<group>"; };
+		0C78A64628631FA40072CA4D /* SelfieCaptureMedium.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SelfieCaptureMedium.xcframework; sourceTree = "<group>"; };
+		0C78A64728631FA80072CA4D /* IDentityMediumSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IDentityMediumSDK.xcframework; sourceTree = "<group>"; };
+		0C78A64828631FA90072CA4D /* IDCaptureMedium.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = IDCaptureMedium.xcframework; sourceTree = "<group>"; };
 		0CA76ABF281C236800B23630 /* MediumSDK2Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumSDK2Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA76AC2281C236800B23630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA76AC4281C236800B23630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,10 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C5F3F1F281EA18B002DAA88 /* IDentityMediumSDK.framework in Frameworks */,
+				0C78A64C28631FAE0072CA4D /* IDCaptureMedium.xcframework in Frameworks */,
+				0C78A64E28631FB00072CA4D /* IDentityMediumSDK.xcframework in Frameworks */,
 				7DB0B54E100A9AC9828E9E7B /* Pods_MediumSDK2Sample.framework in Frameworks */,
-				0C5F3F21281EA18D002DAA88 /* SelfieCaptureMedium.framework in Frameworks */,
-				0C5F3F1D281EA189002DAA88 /* IDCaptureMedium.framework in Frameworks */,
+				0C78A65028631FB20072CA4D /* SelfieCaptureMedium.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +140,9 @@
 		B54ED9D12CB7B7E1BC952DF2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0C5F3F19281EA17F002DAA88 /* IDCaptureMedium.framework */,
-				0C5F3F17281EA17F002DAA88 /* IDentityMediumSDK.framework */,
-				0C5F3F18281EA17F002DAA88 /* SelfieCaptureMedium.framework */,
+				0C78A64828631FA90072CA4D /* IDCaptureMedium.xcframework */,
+				0C78A64728631FA80072CA4D /* IDentityMediumSDK.xcframework */,
+				0C78A64628631FA40072CA4D /* SelfieCaptureMedium.xcframework */,
 				14EED3E535FAE1ECE644FB3A /* Pods_MediumSDK2Sample.framework */,
 			);
 			name = Frameworks;
