@@ -6,6 +6,7 @@ target 'MediumSDK2Sample' do
   use_frameworks!
 
   # Pods for MediumSDK2Sample
+    pod 'IDentityMediumSDK2.0'
     pod 'TensorFlowLiteSwift'
     pod 'GoogleMLKit/TextRecognition'
     pod 'GoogleMLKit/FaceDetection'
