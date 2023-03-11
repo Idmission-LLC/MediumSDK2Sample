@@ -7,11 +7,9 @@ target 'MediumSDK2Sample' do
 
   # Pods for MediumSDK2Sample
     pod 'IDentityMediumSDK2.0'
-    pod 'TensorFlowLiteSwift'
+    pod 'TensorFlowLiteSwift', '~> 2.7.0'
     pod 'GoogleMLKit/TextRecognition'
     pod 'GoogleMLKit/FaceDetection'
-    pod 'ZXingObjC'
     pod 'GZIP'
-    pod 'SSZipArchive'
 
 end
